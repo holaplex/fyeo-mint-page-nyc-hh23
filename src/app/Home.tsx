@@ -48,7 +48,7 @@ export default function Home({ session }: HomeProps) {
 
   return (
     <>
-      <div className="rounded-3xl flex w-full justify-between items-center py-4">
+      <div className="flex w-full justify-between items-center py-4">
         <Image src="/img/logo.png" alt="site logo" width={194} height={44} />
 
         {!me ? (
@@ -93,7 +93,7 @@ export default function Home({ session }: HomeProps) {
               <img
                 src={metadataJson?.image as string}
                 alt={metadataJson?.name as string}
-                className="absolute top-0 left-0 right-0 bottom-0 object-cover"
+                className="rounded-3xl absolute top-0 left-0 right-0 bottom-0 object-cover"
               />
             </div>
           )}
