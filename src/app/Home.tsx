@@ -48,7 +48,7 @@ export default function Home({ session }: HomeProps) {
 
   return (
     <>
-      <div className="flex w-full justify-between items-center py-4 rounded-2xl">
+      <div className="flex w-full justify-between items-center py-4 rounded-3xl">
         <Image src="/img/logo.png" alt="site logo" width={194} height={44} />
 
         {!me ? (
