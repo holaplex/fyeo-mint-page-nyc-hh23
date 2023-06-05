@@ -175,6 +175,15 @@ export default function Home({ session }: HomeProps) {
           </div>
         </div>
       </div>
+      <div className="fixed bottom-12 left-0 right-0 text-center">
+        <p className="text-sm pb-2 text-gray-300">Powered by</p>
+        <div className="flex justify-center">
+        <a href="https://www.holaplex.com" target="_blank" rel="noopener noreferrer">
+        <Image src="/img/holaplex-logo.png" alt="Holaplex Logo" width={150} height={100} />
+      </a>
+  
+        </div>
+      </div>
     </>
   );
 }
